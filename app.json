@@ -16,8 +16,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/iwhiwh/aaaaaaaaaa",
-    "repository": "https://github.com/iwhiwh/aaaaaaaaaa",
+    "website": "https://github.com/mitansh0000/Filterbot",
+    "repository": "https://github.com/mitansh0000/Filterbot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
