@@ -22,6 +22,7 @@ requests
 aiohttp
 gTTS
 googletrans==3.0.0
+httpx==0.13.3
 telegraph
 PyPDF2
 ujson
