@@ -14,14 +14,14 @@ aiofiles
 ffmpeg-python
 ffmpeg
 youtube_search
-youtube-search-python==1.4.6
+youtube-search-python
 yt-dlp==2023.2.17
 youtube-dl
 youtube_search
 requests
 aiohttp
 gTTS
-googletrans==3.1.0a0
+googletrans
 telegraph
 PyPDF2
 ujson
