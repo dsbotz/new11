@@ -14,9 +14,8 @@ aiofiles
 ffmpeg-python
 ffmpeg
 youtube_search
-youtube_search_python
 youtube-search-python==1.4.6
-yt-dlp
+yt-dlp==2023.2.17
 youtube-dl
 youtube_search
 requests
