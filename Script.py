@@ -20,7 +20,7 @@ class script(object):
 
     SOURCE_TXT = """<b>NOTE:</b>
 <b>- 𝐂𝐇𝐋𝐀 𝐉𝐀 😝
-- 𝚂𝙾𝚄𝚁𝙲𝙴 - <a href=https://t.me/MitanshPMbot>ɴʜɪ ᴅᴜɴɢᴀ 🤪</a>"""
+- 𝚂𝙾𝚄𝚁𝙲𝙴 - <a href=https://files.technicalatg.com/fqNyh0m>【 ＣＬＩＣＫ ＨＥＲＥ 】</a>"""
 
 
 
