@@ -43,7 +43,7 @@ class evamaria(Client):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '15503725'))
 API_HASH = environ.get('API_HASH', 'd11e4a03659488e40429f3c39431b6db')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6464951692:AAEDDuAT-EZnAAKgbKerowQ9Ht2ejgkWIwY')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6464951692:AAEQ2fUiUv8IxbGLJwiMyeyn-L-gJkmEWko')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -122,7 +122,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 
 #Verify Features
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 HOW_TO_VERIFY = environ.get("HOW_TO_VERIFY", "https://t.me/HOW_TO_DOWNLOADDS/3")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'atglinks.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '186fa7d626bc179fe08e6fcf7913b35a41d87f9f')
