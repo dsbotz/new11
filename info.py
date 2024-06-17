@@ -41,9 +41,9 @@ class evamaria(Client):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '15503725'))
-API_HASH = environ.get('API_HASH', 'd11e4a03659488e40429f3c39431b6db')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6464951692:AAEQ2fUiUv8IxbGLJwiMyeyn-L-gJkmEWko')
+API_ID = int(environ.get('API_ID', '10053188'))
+API_HASH = environ.get('API_HASH', '74689cc3a42a7afc507453c94a0cfeb9')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6131871030:AAFUy2y3PEnZIkdDmQ6VnHYZuhzhdcQkMAQ')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -59,11 +59,11 @@ MELCOW_VID = environ.get('MELCOW_VID',"https://graph.org/file/a66a4ad88fd5944c45
 
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1398885416').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001727262090').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1398885416').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '767386502').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001242070400').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '-1001410579892')
+auth_channel = environ.get('AUTH_CHANNEL', '')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -75,8 +75,8 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://chatter:chatter@cluster0.yvudxmw.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Elsa")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://freefilter:freefilter@cluster0.soy2gh7.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "freefilter")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 MONGO_URL = os.environ.get('MONGO_URL', "")
 
@@ -91,8 +91,8 @@ S_GROUP = environ.get('S_GROUP',"https://t.me/Movies_Reqvest")
 MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/theprofffesorr")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+wuJrV8hJ1AY0ZTVl")
 MSG_ALRT = environ.get('MSG_ALRT', '👉 परेशान मत कर....🤬')
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001896431744))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001500590584))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001242070400))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001602859617))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Movies_Reqvest')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "False")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
